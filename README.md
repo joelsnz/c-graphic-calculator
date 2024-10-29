@@ -8,6 +8,7 @@ Graphic calculator written in ESP32 C.
 
 - Input numbers and calculate the results of those numbers based on the arithmetic operation they choose.
 - Input functions and get an interactive graphic of those functions.
+- Open a menu to select graphics mode or calculator mode.
 
 2. What is the MVP?
    The Minimal Viable Product is a calculator that renders in a touchscreen that:
