@@ -20,6 +20,7 @@ Graphic calculator written in ESP32 C.
    The nice to haves for this project are:
 
 - Styling the calculator.
+- Having a dark and light theme.
 - Being able to input multiple functions into one graphic.
 - Being able to select a point of the ecuation and return its coordinates.
 
