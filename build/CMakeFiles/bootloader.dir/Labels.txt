@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/home/joel/projects/c-graphic-calculator/build/CMakeFiles/bootloader
+/home/joel/projects/c-graphic-calculator/build/CMakeFiles/bootloader.rule
+/home/joel/projects/c-graphic-calculator/build/CMakeFiles/bootloader-complete.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/home/joel/projects/c-graphic-calculator/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
