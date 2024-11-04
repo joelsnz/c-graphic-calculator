@@ -1,0 +1,4 @@
+[0/1] Re-running CMake...
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/usr/bin/cmake --regenerate-during-build -S/home/joel/projects/c-graphic-calculator -B/home/joel/projects/c-graphic-calculator/build
