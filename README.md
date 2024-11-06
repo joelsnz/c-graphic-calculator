@@ -1,6 +1,7 @@
 # c-graphic-calculator
 
 Graphic calculator written in ESP32 C.
+![](assets/project_schematic.png)
 
 ## What is the project?
 
