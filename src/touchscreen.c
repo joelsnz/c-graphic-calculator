@@ -3,8 +3,21 @@
 
 #define NUMSAMPLES 2
 
+#if (NUMSAMPLES > 2)
+static void insert_sort(int array[], uint8_t size) {
+  uint8_t j;
+  int save;
+
+  for(int i = 1; i < size; i++) {
+    save = array[i];
+    for(j = i; j >= 1; j--)
+      array[j] = array[j - 1];
+    array[j] = save;
+  }
+}
+
 TSPoint getPoint(touchScreen* ts) {
-  int x, y = 0;
+  int x, y;
   int samples[NUMSAMPLES];
 
   gpio_set_direction(ts->yp, GPIO_MODE_INPUT);
@@ -15,7 +28,13 @@ TSPoint getPoint(touchScreen* ts) {
   gpio_set_level(ts->xp, 1);
   gpio_set_level(ts->xm, 0);
 
-  // TODO: analog read ts->xp
+  for(int i = 0; i < NUMSAMPLES; i++)
+    // TODO: analog read ts->yp
+    samples[i] = 0;
+
+  #if NUMSAMPLES > 2
+    insert_sort(samples, NUMSAMPLES);
+  #endif
 
   #if NUMSAMPLES == 2
     if(samples[0] - samples[1] < -4 || samples[0] - samples[1] > 4) {
